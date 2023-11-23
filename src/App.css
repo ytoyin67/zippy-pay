@@ -111,19 +111,84 @@ HOME */
 
 }
 
+.service-2{
+  align-self: center;
+  width: 80%;
+}
+
 .grid{
   display: grid;
   grid-template-columns: 1fr 2fr;
+  
 }
 
-.video{
-
+.service-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
 }
+
 
 .api{
   margin-left: 40px;
   width: 40%;
 }
+
+/* Footer */
+
+.grid-footer{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  /* width: 90%; */
+  margin-top: 90px auto 0 auto;
+  padding-bottom: 50px;
+  padding-left: 40px;
+}
+
+.footer-flex{
+  display: flex;
+  gap: 30px;
+  padding: 30px 40px 0 0;
+  /* justify-content: space-between; */
+}
+
+.footer{
+background-color: #a5bff4;
+/* width: 100vw; */
+}
+.subscribe{
+  background-color: #a5bff4;
+  width: 60%;
+  display: flex;
+  padding: 5px 0 5px;
+  border-radius: 20px;
+
+}
+.sub-width{
+  width: 50%;
+}
+
+.subscribe button{
+  background-color: white;
+  border-radius: 25px;
+  padding: 3px 13px;
+}
+
+.subscribe input{
+  width: 60%;
+  background-color: #a5bff4;
+  border: none;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+
+
+
+
+
+
 
 
 
@@ -216,6 +281,51 @@ HOME */
 
   .grid{
     grid-template-columns: 1fr;
+  }
+
+  .service-grid{
+    grid-template-columns: 1fr;
+  }
+
+  
+  
+
+  .grid-footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    width: 90%;
+   
+    padding-bottom: 50px;
+    padding-left: 20px;
+    margin-top: 30px;
+  }
+  
+  .footer-flex{
+    display: block;
+    
+   
+    /* justify-content: space-between; */
+  }
+
+  .sub-width{
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 25px;
+  }
+
+  .mobile-center{
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  .subscribe{
+    background-color: #a5bff4;
+    width: 90%;
+    display: flex;
+    padding: 5px 0 5px;
+    border-radius: 20px;
+  
   }
 }
 

@@ -1,5 +1,7 @@
 import React from 'react'
 import eclipse from '../images/Ellipse 2.png'
+import pizzyvideo from '../images/videopizzy.mp4'
+import Footer from '../components/Footer'
 
 
 function Home() {
@@ -34,17 +36,15 @@ function Home() {
       </div>
       
 
-      <div className='service my-5 py-5 grid'>
+      <div className='service my-5 py-5 service-grid'>
         <div className='my-3'>
            <div className='video'> 
-             video to be inserted here
+             <video style={{width: '100%'}} src={pizzyvideo} controls></video>
            </div>
         </div>
 
-        <div class>
-          <div className=''>
-
-          </div>
+        <div className='service-2'>
+          
            <h3 className='text-primary'>SERVICES</h3>
            <p className='h3'>collect payments seamlessly with zippy-pay App</p>
            <p>Improve customer experience and intention by allowing them to pay you using their preffered channel.Your customer can pay however they like as we offer different pay in method</p>
@@ -60,6 +60,7 @@ function Home() {
         <p>Our APIs give you access to all the resources you need to carry out seamless payment activities from our app, including creating and maintaining virtual accounts in available currencies, making payouts to different beneficiary , and recieving payments accross several channels and methods.</p>
         <button className="btn btn-default border-primary mt-4">See our documentation</button>
       </div>
+      <Footer />
     </div>
   )
 }
