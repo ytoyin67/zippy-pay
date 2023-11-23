@@ -46,6 +46,12 @@ a{
   margin: 0 15px;
   font-size: 1.5rem;
  }
+
+ .header li a:hover {
+  padding-bottom: 5px;
+    border-bottom: 1px solid grey;
+
+ }
  .logo{
   width: 200px;
   
@@ -74,7 +80,69 @@ a{
  }
  
 
+ 
+/* 
+HOME */
 
+
+.home{
+  margin-top: 150px;
+  margin-left: 100px;
+
+}
+
+.smart{
+  width: 40%;
+  margin: 40px;
+}
+
+/* FEATURE */
+
+.feature{
+  margin-top: 270px;
+  width: 52%;
+  margin-left: 40px;
+  margin-bottom: 100px;
+}
+
+.service{
+  margin-left: 40px;
+  margin-bottom: 30px;
+
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.video{
+
+}
+
+.api{
+  margin-left: 40px;
+  width: 40%;
+}
+
+
+
+
+
+
+/* TAB AND MOBILE */
+
+ @media(max-width: 1150px){
+  .eclipse{
+    display: none;
+  }
+  .feature{
+    margin: 100px auto 20px auto;
+    padding-left: 15px;
+    width: 90%;
+
+  }
+ }
 @media(max-width: 1000px){
   .header {
     padding-left: 15px;
@@ -90,7 +158,7 @@ a{
   }
   .header a {
     font-size: 1.5rem;
-    line-height: 1.8;
+    line-height: 1.6;
   }
   .mobile{
      display: flex;
@@ -101,11 +169,10 @@ a{
 
      
   }
-
-  .bars:checked .mobile{
-    transition: all .2s ease-in;
-  }
-
+.api{
+  padding-left: ;
+}
+  
   .btn-container{
     align-items: center;
     justify-content: center;
@@ -124,6 +191,24 @@ a{
     font-size: 16px;
   }
   
+
+  .home{
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+
+  .smart{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .eclipse{
+    display: none;
+  }
+
+
+  .grid{
+    grid-template-columns: 1fr;
+  }
 }
 
 
@@ -137,8 +222,16 @@ a{
     flex-direction: column;
     align-items: flex-start;
   }
+  .header a {
+    font-size: 18px;
+  }
   .logo{
     width: 150px;
   }
+  .eclipse{
+    display: none;
+  }
+  .smart{
+    width: 90%;
+  }
 }
-
