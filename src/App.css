@@ -15,7 +15,7 @@ a{
 
 .flex {
   display: flex;
-  flex-wrap: wrap;
+ 
   justify-content: space-between;
   align-items: center;
 }
@@ -44,10 +44,10 @@ a{
 
  .header a{
   margin: 0 15px;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
  }
  .logo{
-  width: 270px;
+  width: 200px;
   
 
  }
@@ -60,7 +60,7 @@ a{
  .header .btn-blue{
   background-color: #4d89fe;
   border: none;
-  padding: 10px 18px;
+  padding: 7px 13px;
  }
  
  .header .btn-blue a{
@@ -68,7 +68,7 @@ a{
   
  }
  .header .btn-white{
-  padding: 10px 18px;
+  padding: 7x 13px;
   background-color: transparent;
   border: 1px solid #4d89fe;
  }
@@ -138,7 +138,7 @@ a{
     align-items: flex-start;
   }
   .logo{
-    width: 170px;
+    width: 150px;
   }
 }
 
