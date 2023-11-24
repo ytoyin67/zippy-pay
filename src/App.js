@@ -5,14 +5,14 @@ import Dashboard from './pages/Dashboard';
 import Home from './pages/Home';
 import Register from './pages/Register';
 import Login from './pages/Login';
-import Header from './components/Header';
+
 
 
 function App() {
   return (
     <>
       <BrowserRouter>
-       <Header />
+      
       <Routes>
           {/* <Route path="/" element={<Dashboard />} > */}
               <Route index element={<Home />} />

@@ -2,11 +2,16 @@ import React from 'react'
 import eclipse from '../images/Ellipse 2.png'
 import pizzyvideo from '../images/videopizzy.mp4'
 import Footer from '../components/Footer'
-
+import Header from '../components/Header';
 
 function Home() {
   return (
-    <div className='width-element home position-relative' >
+    <div>
+
+       <Header />
+
+      <div className='width-element home position-relative' >
+          
        <div className='smart'>
          <p className='text-primary h3'>smart Payment</p>
          <p className='h2 py-2'>Payment Made faster and easier</p>
@@ -59,6 +64,7 @@ function Home() {
         <p className='h3 pt-2'>Easy Integration</p>
         <p>Our APIs give you access to all the resources you need to carry out seamless payment activities from our app, including creating and maintaining virtual accounts in available currencies, making payouts to different beneficiary , and recieving payments accross several channels and methods.</p>
         <button className="btn btn-default border-primary mt-4">See our documentation</button>
+      </div>
       </div>
       <Footer />
     </div>

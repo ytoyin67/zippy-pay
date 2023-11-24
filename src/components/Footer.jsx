@@ -18,7 +18,7 @@ function Footer() {
                 <button className='btn btn-default'>subscribe</button>
               </div>
             </div>
-              <img className='mt-4 
+              <img className='mt-4   
               ' src={zippayWhite} style={{width: '140px',marginLeft: '80px'}} alt="" />
            </div>
          </div>
@@ -27,10 +27,10 @@ function Footer() {
                   <h3 className='text-primary'>Navigation</h3>
                   <ul>
                       <li className='h5'> <Link to="/">Home</Link></li>
-                        <li className='h5'><Link to="/features">Features</Link></li>
-                        <li className='h5'><Link to="/pricing">Pricing</Link></li>
-                        <li className='h5'><Link to="/resoursces">Resourses</Link></li>
-                        <li className='h5'><Link to="/support">Support</Link></li>
+                        <li className='h5'><Link to="/#features">Features</Link></li>
+                        <li className='h5'><Link to="/#pricing">Pricing</Link></li>
+                        <li className='h5'><Link to="/#resoursces">Resourses</Link></li>
+                        <li className='h5'><Link to="/#support">Support</Link></li>
                     
                   </ul>
               </div>

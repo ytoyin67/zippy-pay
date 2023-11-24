@@ -17,16 +17,16 @@ function Header() {
           <ul className='d-none d-lg-flex flex '>
             
                 <li> <Link to="/">Home</Link></li>
-                <li><Link to="/features">Features</Link></li>
-                <li><Link to="/pricing">Pricing</Link></li>
-                <li><Link to="/resoursces">Resourses</Link></li>
-                <li><Link to="/support">Support</Link></li>
+                <li><Link to="/#features">Features</Link></li>
+                <li><Link to="/#pricing">Pricing</Link></li>
+                <li><Link to="/#resoursces">Resourses</Link></li>
+                <li><Link to="#/support">Support</Link></li>
                 
           </ul>
           {/* <div> <FaTimes style={{width:"50px", height: "30px"}}/></div> */}
-          <div style={{position: 'absolute', top: '40px', right: '50px'}}>
-                {!toggle ? <FaBars onClick={()=> setToggle(true)} className='h1 bars d-lg-none '/> :
-                <FaTimes onClick={()=> setToggle(!toggle)} className='h1 d-lg-none text-danger'/>}
+          <div style={{position: 'absolute', top: '40px', right: '50px', cursor: "pointer"}}>
+                {!toggle ? <FaBars onClick={()=> setToggle(true)} className='h3 bars d-lg-none '/> :
+                <FaTimes onClick={()=> setToggle(!toggle)} className='h3 d-lg-none text-danger'/>}
               </div>
           
           <div className='d-none d-lg-flex'>
@@ -39,10 +39,10 @@ function Header() {
           <ul className='d-lg-none  '>
                 
                 <li> <Link to="/">Home</Link></li>
-                <li><Link to="/features">Features</Link></li>
-                <li><Link to="/pricing">Pricing</Link></li>
-                <li><Link to="/resoursces">Resourses</Link></li>
-                <li><Link to="/support">Support</Link></li>
+                <li><Link to="/#features">Features</Link></li>
+                <li><Link to="/#pricing">Pricing</Link></li>
+                <li><Link to="/#resoursces">Resourses</Link></li>
+                <li><Link to="/#support">Support</Link></li>
                 
           </ul>
           <div>
