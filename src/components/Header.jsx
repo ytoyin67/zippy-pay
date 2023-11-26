@@ -20,7 +20,7 @@ function Header() {
                 <li><Link to="/#features">Features</Link></li>
                 <li><Link to="/#pricing">Pricing</Link></li>
                 <li><Link to="/#resoursces">Resourses</Link></li>
-                <li><Link to="#/support">Support</Link></li>
+                <li><Link to="/dashboard">Dashboard</Link></li>
                 
           </ul>
           {/* <div> <FaTimes style={{width:"50px", height: "30px"}}/></div> */}
@@ -42,7 +42,7 @@ function Header() {
                 <li><Link to="/#features">Features</Link></li>
                 <li><Link to="/#pricing">Pricing</Link></li>
                 <li><Link to="/#resoursces">Resourses</Link></li>
-                <li><Link to="/#support">Support</Link></li>
+                <li><Link to="/dashboard">Dashboard</Link></li>
                 
           </ul>
           <div>

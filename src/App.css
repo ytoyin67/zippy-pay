@@ -278,6 +278,9 @@ outline: none;
 .dash-grid{
   display: grid;
   grid-template-columns: 3fr 1fr;
+  gap: 30px;
+  justify-content: center;
+
 }
 
 
@@ -428,6 +431,42 @@ outline: none;
     border-radius: 20px;
   
   }
+
+
+  
+.dashboard-wallet{
+  margin-left: 1%;
+  background-color: rgb(219, 227, 245, .19);
+  height: auto;
+}
+
+.dash-grid{
+  
+  grid-template-columns:  1fr;
+  gap: 30px;
+  justify-content: center;
+  width: 90%;
+}
+
+
+
+  
+  
+  
+
+.dash-nav{
+  display: flex;
+  flex-direction: column;
+   
+ 
+  /* justify-content: center; */
+  /* padding: 10px 10px 10px 40px; */
+  width: 90% ;
+  height: auto;
+  /* margin: 0 auto; */
+  overflow-x: hidden;
+}
+
 }
 
 
