@@ -1,4 +1,5 @@
 import React from 'react'
+import { useEffect } from 'react'
 import zippayWhite from '../images/zippyPayWhite.jpg'
 import CN from '../images/CN.png'
 import GB from '../images/GB.png'
@@ -12,16 +13,21 @@ function Dashboard() {
 
 
 
-  // let navigate = useNavigate();
+  let navigate = useNavigate();
+
+  let user;
+    user = JSON.parse(localStorage.getItem('user', user))
 
 
-  //  const user = JSON.parse(localStorage.getItem('user', user))
+useEffect(()=>{
+  
+  if(user === null){
+   
+    return navigate('/login')
+  } alert('login first to see your dashboard')
 
-
-  // if(!user){
-  //   return navigate("/login")
-  // }
-
+},[])
+  
   
   return (
     <div >
