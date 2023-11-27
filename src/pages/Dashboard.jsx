@@ -5,9 +5,24 @@ import GB from '../images/GB.png'
 import NG from '../images/NG.png'
 import US from '../images/US.png'
 import {FaSearch} from 'react-icons/fa'
+import { useNavigate } from 'react-router-dom'
 
 
 function Dashboard() {
+
+
+
+  // let navigate = useNavigate();
+
+
+  //  const user = JSON.parse(localStorage.getItem('user', user))
+
+
+  // if(!user){
+  //   return navigate("/login")
+  // }
+
+  
   return (
     <div >
       <div className='dash-nav'>
